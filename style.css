@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    height: 100vh; 
+    margin: 0; 
+    padding: 0; 
+    background-image: url('https://cdn.pixabay.com/photo/2022/08/22/12/42/bird-7403593_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 80%;
+    padding: 80px 4%;
+    background-color: rgba(48, 11, 11, 0);
+    height: auto; 
+}
+
+.formulario {
+    width: 100%; 
+}
+
+.sign{
+    max-width: 500px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+input {
+    border-radius: 3%;
+    padding: 10px 20px 15px;
+    border: 0;
+    border: none;
+    outline: none;
+    color:red;
+    background-color: black;
+    cursor: pointer;
+}
+
+.botao{
+    text-align: center;
+}
